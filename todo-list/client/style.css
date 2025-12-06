@@ -1,0 +1,116 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  width: 100%;
+  max-width: 480px;
+  background: #fffffffa;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== TITLES ===== */
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #1e40af;
+  margin-bottom: 12px;
+}
+
+/* ===== INPUTS ===== */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1e40af;
+  transform: translateY(-1px);
+}
+
+/* ===== MESSAGES ===== */
+.msg {
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+
+/* ===== NEW TASK INPUT ROW ===== */
+.task-input-row {
+  display: flex 1;
+  gap: 10px;
+}
+
+.task-input-row input {
+  flex: 1;
+}
+
+/* ===== TASK LIST ===== */
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+/* LEFT SIDE (checkbox + text) */
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.task-left span {
+  font-size: 1rem;
+}
+
+/* Buttons in tasks */
+.task-btn {
+  width: auto;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+}
